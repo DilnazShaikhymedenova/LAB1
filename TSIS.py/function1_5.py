@@ -1,9 +1,9 @@
 from itertools import permutations
 def print_permutations():
     s = input("String : ")
-    perms = permutations(s) 
+    a = permutations(s) 
     
     print("All permutations : ")
-    for perm in perms:
-        print(''.join(perm))
+    for x in a:
+        print(''.join(x))
 print_permutations() 

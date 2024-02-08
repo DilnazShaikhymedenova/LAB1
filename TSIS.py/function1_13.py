@@ -1,4 +1,4 @@
-import random
+import random #imports the random module
 
 def GuessTheNumber():
     random_number = random.randint(1, 20)

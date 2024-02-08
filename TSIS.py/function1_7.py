@@ -1,5 +1,6 @@
 a = [1, 1, 3, 3]#function must return true
 b = [1, 3, 2, 1, 3]#function must return false
+c = [3, 1, 3] #the function must return False
 def has_33(num):
     ft = False
     i = 0
@@ -16,3 +17,4 @@ def has_33(num):
     return False
 print(has_33(a))
 print(has_33(b))
+print(has_33(c))

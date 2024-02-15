@@ -13,6 +13,6 @@ class Account():
         else:
             print(self.balance)
 
-wallet = Account("Dulat", 7000)
+wallet = Account("Dulat", 17000)
 wallet.deposit(2000)
 wallet.withdraw(10000)

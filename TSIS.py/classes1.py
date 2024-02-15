@@ -1,8 +1,8 @@
 class my_class:
-    def getString(self):
+    def getString(a):
         a = str(input())
         return a
-    def printString(self, c):
+    def printString(self,c):
         print(c.upper())
 p1 = my_class()
 b = p1.getString()
